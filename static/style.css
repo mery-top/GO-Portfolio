@@ -103,7 +103,7 @@ h5{
     }
 
     .card3{
-        color: yellowgreen;
+        color: greenyellow;
     font-size: 10px;
     width: 100px;
     height: 100px;
@@ -161,6 +161,15 @@ h5{
     .card2{
         height: 10px;
     }
+    .card3{
+        height: 20px;
+    }
+
+    .card3 h3{
+        font-size: 9px;
+    }
+
+
 
     .cardh3, .card p, .card a{
         font-size: 8px;
