@@ -10,6 +10,11 @@ body{
 
 }
 
+.scale-container {
+    zoom: 2;
+  }
+  
+
 
 .image{
     display: flex;
@@ -156,7 +161,7 @@ h5{
 
   @media (max-width: 600px) {
     #name {
-      font-size: 5px; /* Larger font size on very small screens for readability */
+      font-size: 3px; /* Larger font size on very small screens for readability */
     }
     .card-container{
         flex-direction: column;
@@ -199,6 +204,10 @@ h5{
     .name-text h3{
         font-size: 9px;
     }
+    .scale-container {
+        zoom: 2;
+      }
+      
   }
 
 
