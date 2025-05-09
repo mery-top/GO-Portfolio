@@ -137,6 +137,7 @@ h5{
     color: black;
   }
 
+
   @media (max-width: 600px) {
     #name {
       font-size: 5px; /* Larger font size on very small screens for readability */
@@ -177,6 +178,10 @@ h5{
 
     .open p, .open a{
         font-size: 8px;
+    }
+
+    .name-text h3{
+        font-size: 9px;
     }
   }
 
