@@ -158,6 +158,12 @@ h5{
     color: black;
   }
 
+  @media (max-width: 1000px) {
+    #name {
+      font-size: 6px; /* Larger font size on very small screens for readability */
+    }
+  }
+
 
   @media (max-width: 600px) {
     #name {
